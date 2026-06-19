@@ -16,8 +16,6 @@ public class DataTypes {
         char rank = 'A';
         boolean isLegendary = false;
         String heldItem = null;
-        char lightning = '\u26A1'; // ⚡
-        char star = '*';
         int totalStats = hp + attack + defense;
 
         System.out.println(" POKEMON PROFILE: ");
@@ -43,7 +41,5 @@ public class DataTypes {
         System.out.println("Rank: " + rank);
         System.out.println("Legendary: " + isLegendary);
         System.out.println("Held Item: " + heldItem);
-        System.out.println("Type Symbol: " + lightning);
-        System.out.println("Favorite Symbol: " + star);
     }
 }
