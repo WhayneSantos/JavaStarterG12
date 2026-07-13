@@ -2,19 +2,12 @@ package Operation;
 
 public class guess {
     public static void main(String[] args) {
+int m = 2;
+int n = -3;
+System.out.println(m++ - --n + ++m);
+System.out.println(--m * n++ - m--);
+System.out.println(n-- / ++m + n++);
+System.out.println(++m + ++n * m++);
 
-        int x = 8;
-        int y = 3;
-
-        System.out.println(++x + y--);
-        System.out.println(x-- * ++y);
-        System.out.println(--x + y++);
-        System.out.println(++y + x--);
-        System.out.println(y-- * ++x);
-        System.out.println(--y + x++);
-        System.out.println(++x - --y);
-        System.out.println(x++ + y--);
-        System.out.println(--x * ++y);
-        System.out.println(y / x++);
     }
 }
