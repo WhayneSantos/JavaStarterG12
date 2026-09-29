@@ -8,19 +8,25 @@ public class UserInput {
 
         System.out.println("This is my Nested If Else program for Weather Decisions.");
 
-        System.out.print("It is currently raining outside? (enter true or false): ");
-        boolean isRaining = input.nextBoolean();
+        System.out.println("is it currently raining outside?: ");;
+        System.out.println("[1] Yes");
+        System.out.println("[2] No");
 
-        if (isRaining) {
-            System.out.println("Looks like it is a gloomy day.");
+        int isRaining = input.nextInt();
 
-            System.out.print("You have an umbrella with you. (enter true or false): ");
-            boolean hasUmbrella = input.nextBoolean();
+        if (isRaining == 1 ) {
+            System.out.println("Looks like it is a rainy day.");
 
-            if (hasUmbrella) {
+            System.out.println("Do you have an umbrella with you?");
+                System.out.println("[1] Yes");
+                System.out.println("[2] No");
+
+                int hasUmbrella = input.nextInt();
+
+            if (hasUmbrella == 1) {
                 System.out.println("You are safe to go outside without getting wet!");
             } else {
-                System.out.println("You should probably stay inside, or you will get soaked.");
+                System.out.println("You should probably stay inside, or you will get wet.");
             }
 
         } else {

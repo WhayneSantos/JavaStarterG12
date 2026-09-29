@@ -18,7 +18,7 @@ public class Algorithm {
             }
             
             left++;  // Move rightward
-            right--; // Move leftward
+            right--; // Move left
         }
 
         return true; // Pointers met in the middle successfully

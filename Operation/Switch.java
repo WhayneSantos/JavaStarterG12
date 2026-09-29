@@ -2,7 +2,7 @@ package Operation;
 
 public class Switch {
     public static void main(String[] args) {
-        int day = 3; // 1=Mon, 2=Tue, 3=Wed, ...
+        int day = 2; // 1=Mon, 2=Tue, 3=Wed, ...
 
         String name;
         switch (day) {
