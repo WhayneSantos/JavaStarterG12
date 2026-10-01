@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class MainCalcu {
 
     //add a to b
-
+    public static double add(double a, double b){
+        double sum = a + b;
+        return sum;
+    }
     //subtract b from a
     public static double subtract(double a, double b){
         double difference = a - b;
